@@ -1,10 +1,13 @@
 [gd_scene format=3 uid="uid://dqq871fu8mw7"]
 
+[ext_resource type="Texture2D" uid="uid://b7sv4x7p187fw" path="res://Assets/Return-icn.png" id="1_2oamv"]
 [ext_resource type="PackedScene" uid="uid://dn7hubug14yda" path="res://Components/Label.tscn" id="1_spi8i"]
+[ext_resource type="Texture2D" uid="uid://jwt3tnnv17cx" path="res://Assets/Return-Pressed-icon.png" id="2_akq1u"]
 
 [node name="ItemsListing" type="CanvasLayer" unique_id=153477722]
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=1768109689]
+texture_filter = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -24,9 +27,31 @@ theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 10
 
-[node name="Title" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer2" unique_id=1113677530 instance=ExtResource("1_spi8i")]
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer2" unique_id=290126818]
 layout_mode = 2
+
+[node name="TextureButton" type="TextureButton" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer2/HBoxContainer" unique_id=631855859]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("1_2oamv")
+texture_pressed = ExtResource("2_akq1u")
+stretch_mode = 5
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer2/HBoxContainer" unique_id=959178200]
+layout_mode = 2
+
+[node name="Title" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer2/HBoxContainer/TextureRect" unique_id=1113677530 instance=ExtResource("1_spi8i")]
+layout_mode = 0
+offset_left = -847.0
+offset_right = -218.0
+offset_bottom = 137.0
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 3.0
 text = "Title"
+
+[node name="temp" type="Button" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer2/HBoxContainer" unique_id=670556486]
+layout_mode = 2
+size_flags_horizontal = 3
 
 [node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer/VBoxContainer" unique_id=1435384527]
 layout_mode = 2
