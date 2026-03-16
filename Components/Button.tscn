@@ -1,21 +1,12 @@
-[gd_scene format=3 uid="uid://87vqel3lu41o"]
+[gd_scene format=3 uid="uid://cbekkoscvdqle"]
 
-[ext_resource type="Script" uid="uid://b0xre8xl5kmbu" path="res://Scripts/UIButton.cs" id="1_fo428"]
+[ext_resource type="Script" uid="uid://b0q0dlqnotnoj" path="res://Scripts/UIButton.cs" id="1_fo428"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fo428"]
-
-[node name="Button" type="PanelContainer" unique_id=1409135645]
-offset_right = 341.0
-offset_bottom = 145.0
-theme_override_styles/panel = SubResource("StyleBoxEmpty_fo428")
+[node name="Button" type="PanelContainer" unique_id=1967281571]
 script = ExtResource("1_fo428")
 
-[node name="TextureButton" type="TextureButton" parent="." unique_id=1126760761]
+[node name="TextureButton" type="TextureButton" parent="." unique_id=1835799228]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="." unique_id=142373193]
+[node name="Label" type="Label" parent="." unique_id=2055815303]
 layout_mode = 2
-theme_override_font_sizes/font_size = 100
-text = "Button"
-horizontal_alignment = 1
-vertical_alignment = 1
