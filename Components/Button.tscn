@@ -1,12 +1,25 @@
 [gd_scene format=3 uid="uid://cbekkoscvdqle"]
 
 [ext_resource type="Script" uid="uid://b0q0dlqnotnoj" path="res://Scripts/UIButton.cs" id="1_fo428"]
+[ext_resource type="Texture2D" uid="uid://ca10ac6an7ymu" path="res://Assets/button-default-bg.png" id="2_0244j"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fo428"]
 
 [node name="Button" type="PanelContainer" unique_id=1967281571]
+texture_filter = 1
+offset_right = 333.0
+offset_bottom = 137.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_fo428")
 script = ExtResource("1_fo428")
 
 [node name="TextureButton" type="TextureButton" parent="." unique_id=1835799228]
 layout_mode = 2
+texture_normal = ExtResource("2_0244j")
+stretch_mode = 0
 
 [node name="Label" type="Label" parent="." unique_id=2055815303]
 layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Button"
+horizontal_alignment = 1
+vertical_alignment = 1

@@ -1,3 +1,3 @@
 @REM Run the project with the Godot Engine
 @echo off
-"GD4.6.1-mono" "project.godot"
+"godot.windows.opt.tools.64.exe" "project.godot"

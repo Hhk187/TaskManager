@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://esh84cb5wedu"]
+
+[ext_resource type="PackedScene" uid="uid://dqq871fu8mw7" path="res://Components/Layouts/ItemListing/ItemsListing.tscn" id="1_35clt"]
+[ext_resource type="PackedScene" uid="uid://cbekkoscvdqle" path="res://Components/Button.tscn" id="2_br8cn"]
+[ext_resource type="PackedScene" uid="uid://brj27oiidak3x" path="res://Views/Deadlines/Deadlines.tscn" id="3_0wuu5"]
+
+[node name="Home" unique_id=153477722 instance=ExtResource("1_35clt")]
+
+[node name="Title" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer2/HBoxContainer/PannelContainer" parent_id_path=PackedInt32Array(29957481) index="1" unique_id=1113677530]
+text = "Home"
+
+[node name="Deadline" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/ScrollContainer/Items" parent_id_path=PackedInt32Array(1363099822) index="0" unique_id=1967281571 instance=ExtResource("2_br8cn")]
+layout_mode = 2
+Link = ExtResource("3_0wuu5")
+
+[node name="Label" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/ScrollContainer/Items/Deadline" index="1" unique_id=2055815303]
+text = "Deadlines"
+
+[node name="Daily Tasks" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/ScrollContainer/Items" parent_id_path=PackedInt32Array(1363099822) index="1" unique_id=1120599056 instance=ExtResource("2_br8cn")]
+layout_mode = 2
+
+[node name="Label" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/ScrollContainer/Items/Daily Tasks" index="1" unique_id=2055815303]
+text = "Daily Tasks"
+
+[editable path="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/ScrollContainer/Items/Deadline"]
+[editable path="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/ScrollContainer/Items/Daily Tasks"]
