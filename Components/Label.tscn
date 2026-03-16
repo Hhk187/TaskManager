@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dn7hubug14yda"]
+
+[node name="Label" type="Label" unique_id=1113677530]
+theme_override_font_sizes/font_size = 100
+text = "Home"
+horizontal_alignment = 1

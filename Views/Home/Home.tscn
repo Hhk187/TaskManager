@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bm537l5udmtt8"]
+
+[ext_resource type="PackedScene" uid="uid://dqq871fu8mw7" path="res://Components/Layouts/ItemListing/ItemsListing.tscn" id="1_br8cn"]
+[ext_resource type="PackedScene" uid="uid://87vqel3lu41o" path="res://Components/Button.tscn" id="2_0wuu5"]
+[ext_resource type="PackedScene" uid="uid://brj27oiidak3x" path="res://Views/Deadlines/Deadlines.tscn" id="3_0wuu5"]
+
+[node name="Home" unique_id=153477722 instance=ExtResource("1_br8cn")]
+
+[node name="Title" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer2" parent_id_path=PackedInt32Array(1405906803) index="0" unique_id=1113677530]
+text = "Home"
+
+[node name="DailyTasks" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/ScrollContainer/Items" parent_id_path=PackedInt32Array(1363099822) index="0" unique_id=1424364917 instance=ExtResource("2_0wuu5")]
+layout_mode = 2
+text = "Daily Tasks
+"
+
+[node name="Deadlines" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/ScrollContainer/Items" parent_id_path=PackedInt32Array(1363099822) index="1" unique_id=1053421760 instance=ExtResource("2_0wuu5")]
+layout_mode = 2
+text = "Deadlines"
+link = ExtResource("3_0wuu5")

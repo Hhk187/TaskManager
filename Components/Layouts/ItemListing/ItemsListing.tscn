@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://dqq871fu8mw7"]
+
+[ext_resource type="PackedScene" uid="uid://dn7hubug14yda" path="res://Components/Label.tscn" id="1_spi8i"]
+
+[node name="ItemsListing" type="CanvasLayer" unique_id=153477722]
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1768109689]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer" unique_id=1505081730]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/PanelContainer" unique_id=1046406137]
+layout_mode = 2
+
+[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/PanelContainer/VBoxContainer" unique_id=1405906803]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Title" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer2" unique_id=1113677530 instance=ExtResource("1_spi8i")]
+layout_mode = 2
+text = "Title"
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer/VBoxContainer" unique_id=1435384527]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer" unique_id=1136409373]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Items" type="VBoxContainer" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer/ScrollContainer" unique_id=1363099822]
+layout_mode = 2
+size_flags_horizontal = 3
