@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cbekkoscvdqle"]
 
-[ext_resource type="Script" uid="uid://b0q0dlqnotnoj" path="res://Scripts/UIButton.cs" id="1_fo428"]
+[ext_resource type="Script" uid="uid://c38dl6ufply18" path="res://Scripts/UIButton.gd" id="1_0244j"]
 [ext_resource type="Texture2D" uid="uid://ca10ac6an7ymu" path="res://Assets/button-default-bg.png" id="2_0244j"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fo428"]
@@ -10,7 +10,7 @@ texture_filter = 1
 offset_right = 333.0
 offset_bottom = 137.0
 theme_override_styles/panel = SubResource("StyleBoxEmpty_fo428")
-script = ExtResource("1_fo428")
+script = ExtResource("1_0244j")
 
 [node name="TextureButton" type="TextureButton" parent="." unique_id=1835799228]
 layout_mode = 2
