@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://booyl3x75ixds"]
+
+[ext_resource type="Script" uid="uid://dlm6p4u45oga4" path="res://Controllers/AppController/AppManager.gd" id="1_dcf1j"]
+
+[node name="AppController" type="Node" unique_id=456411993]
+script = ExtResource("1_dcf1j")

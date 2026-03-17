@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OnlineProjects\\TaskManager\\TaskManager.csproj": {}
+    "C:\\Users\\2003h\\Desktop\\OnlineProjects\\TaskManager\\TaskManager.csproj": {}
   },
   "projects": {
-    "D:\\OnlineProjects\\TaskManager\\TaskManager.csproj": {
+    "C:\\Users\\2003h\\Desktop\\OnlineProjects\\TaskManager\\TaskManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OnlineProjects\\TaskManager\\TaskManager.csproj",
+        "projectUniqueName": "C:\\Users\\2003h\\Desktop\\OnlineProjects\\TaskManager\\TaskManager.csproj",
         "projectName": "TaskManager",
-        "projectPath": "D:\\OnlineProjects\\TaskManager\\TaskManager.csproj",
-        "packagesPath": "C:\\Users\\Hhk\\.nuget\\packages\\",
-        "outputPath": "D:\\OnlineProjects\\TaskManager\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\2003h\\Desktop\\OnlineProjects\\TaskManager\\TaskManager.csproj",
+        "packagesPath": "C:\\Users\\2003h\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2003h\\Desktop\\OnlineProjects\\TaskManager\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hhk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\2003h\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -71,26 +70,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.24, 8.0.24]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

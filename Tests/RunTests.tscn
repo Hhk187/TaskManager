@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://fq2uh1gb3uum"]
+
+[ext_resource type="Script" uid="uid://uqwodvwo558b" path="res://Tests/Singletons/AppManagerTest.gd" id="1_u7wj6"]
+
+[node name="RunTests" type="Node" unique_id=2019502870]
+
+[node name="AppManagerTest" type="Node" parent="." unique_id=834855446]
+script = ExtResource("1_u7wj6")
+metadata/_custom_type_script = "uid://uqwodvwo558b"

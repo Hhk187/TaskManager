@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bgcfq4awa4p14"]
+
+[ext_resource type="PackedScene" uid="uid://dqq871fu8mw7" path="res://Components/Layouts/ItemListing/ItemsListing.tscn" id="1_njcv5"]
+
+[node name="DailyTasks" unique_id=1629102041 instance=ExtResource("1_njcv5")]
+
+[node name="Title" parent="MarginContainer/PanelContainer/VBoxContainer/MarginContainer2/HBoxContainer/PannelContainer" parent_id_path=PackedInt32Array(963612567) index="1" unique_id=393838322]
+text = "Daily Tasks"

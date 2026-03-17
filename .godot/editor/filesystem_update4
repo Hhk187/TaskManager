@@ -1,1 +1,8 @@
-res://Components/Button.tscn
+res://Singletons/AppController.tscn
+res://Singletons/AppManager.gd
+res://Controllers/AppController.tscn
+res://Controllers/AppController/AppController.tscn
+res://Controllers/AppController/AppManager.gd
+res://Tests/Singletons/AppManagerTest.gd
+res://Tests/RunTests.tscn
+res://Views/DailyTasks/DailyTasks.tscn
